@@ -1,0 +1,32 @@
+template:
+  name: pipelineTemplateUsingStepShellScriptTemplate
+  identifier: PipelineTemplate61Zm1
+  versionLabel: "1"
+  type: Pipeline
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: s1
+          identifier: s1
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    name: sp1
+                    identifier: sp1
+                    template:
+                      templateRef: StepTemplateeXeQc
+                      versionLabel: "1"
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: <+input>
+          tags: {}

@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvciAupMU0cLL
+  identifier: NGPipeAutoDslcV7HYOD
+  tags: {}
+  name: NGPipeAutoDslcV7HYOD
+  type: PreProduction

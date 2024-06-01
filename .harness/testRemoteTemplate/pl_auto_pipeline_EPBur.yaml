@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_EPBur
-  identifier: pl_auto_pipeline_EPBur
-  template:
-    templateRef: account.pl_auto_pipeline_N47JF
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync

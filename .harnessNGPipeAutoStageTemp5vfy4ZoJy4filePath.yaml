@@ -1,0 +1,27 @@
+template:
+  name: NGPipeAutoStageTemp5vfy4ZoJy4
+  identifier: NGPipeAutoStageTemp5vfy4ZoJy4
+  projectIdentifier: NGPipeAutoPipelineSvczuMGraajJ8
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  versionLabel: v1
+  type: Stage
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: s1
+              identifier: s1
+              template:
+                templateRef: NGPipeAutoStepTempeMAJr580zs
+                versionLabel: v1
+                templateInputs:
+                  type: ShellScript
+                  timeout: <+input>
+      environment:
+        environmentRef: <+input>
+        deployToAll: false
+        environmentInputs: <+input>
+        infrastructureDefinitions: <+input>

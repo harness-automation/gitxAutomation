@@ -4,5 +4,5 @@ service:
   serviceDefinition:
     spec:
       release:
-        name: <+input>
+        name: release-<+INFRA_KEY_SHORT_ID>
     type: Kubernetes

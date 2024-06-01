@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_yUGMA
+  identifier: pl_auto_pipeline_yUGMA
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_KpU4Y
+          identifier: pl_auto_template_KpU4Y
+          template:
+            templateRef: account.pl_auto_template_KpU4Y
+            versionLabel: v3

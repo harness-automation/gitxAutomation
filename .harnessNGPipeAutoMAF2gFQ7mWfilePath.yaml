@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMAF2gFQ7mW
+  identifier: NGPipeAutoMAF2gFQ7mW
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes

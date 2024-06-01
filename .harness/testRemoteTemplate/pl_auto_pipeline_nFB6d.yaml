@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_nFB6d
+  identifier: pl_auto_pipeline_nFB6d
+  template:
+    templateRef: account.pl_auto_pipeline_D3taG
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync

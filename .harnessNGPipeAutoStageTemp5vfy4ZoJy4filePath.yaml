@@ -17,9 +17,6 @@ template:
               template:
                 templateRef: NGPipeAutoStepTempeMAJr580zs
                 versionLabel: v1
-                templateInputs:
-                  type: ShellScript
-                  timeout: <+input>
       environment:
         environmentRef: <+input>
         deployToAll: false

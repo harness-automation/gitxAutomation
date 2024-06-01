@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutojfOnTxmpyc
+  identifier: NGPipeAutojfOnTxmpyc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes

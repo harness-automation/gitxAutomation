@@ -25,8 +25,8 @@ template:
               variables:
                 - name: var1
                   type: String
-                  default: "True"
-                  value: <+input>.default(True).allowedValues(True,False)
+                  default: "False"
+                  value: <+input>.default(False).allowedValues(True,False,None)
       execution:
         steps:
           - step:

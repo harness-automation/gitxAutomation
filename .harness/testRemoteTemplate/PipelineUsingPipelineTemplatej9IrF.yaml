@@ -1,0 +1,28 @@
+pipeline:
+  name: pipelineUsingPipelineTemplate
+  identifier: PipelineUsingPipelineTemplatej9IrF
+  tags: {}
+  template:
+    templateRef: PipelineTemplatev7Jb1
+    versionLabel: "1"
+    gitBranch: main-patch
+    templateInputs:
+      stages:
+        - stage:
+            identifier: s1
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: sp1
+                      template:
+                        templateInputs:
+                          type: ShellScript
+                          spec:
+                            source:
+                              type: Inline
+                              spec:
+                                script: echo 'hi'
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync

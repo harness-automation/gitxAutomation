@@ -18,14 +18,6 @@ template:
             templateInputs:
               type: Custom
               spec:
-                execution:
-                  steps:
-                    - step:
-                        identifier: s1
-                        template:
-                          templateInputs:
-                            type: ShellScript
-                            timeout: <+input>
                 environment:
                   environmentRef: <+input>
                   environmentInputs: <+input>
@@ -40,17 +32,8 @@ template:
             templateInputs:
               type: Custom
               spec:
-                execution:
-                  steps:
-                    - step:
-                        identifier: s1
-                        template:
-                          templateInputs:
-                            type: ShellScript
-                            timeout: <+input>
                 environment:
                   environmentRef: <+input>
                   environmentInputs: <+input>
                   infrastructureDefinitions: <+input>
     allowStageExecutions: true
-

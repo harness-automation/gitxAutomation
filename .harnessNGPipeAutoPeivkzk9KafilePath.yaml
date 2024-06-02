@@ -1,7 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineOverridesg6FQC12PCB
-  identifier: NGPipeAutoPeivkzk9Ka
-  tags: {}
-  name: NGPipeAutoPeivkzk9Ka
-  type: PreProduction

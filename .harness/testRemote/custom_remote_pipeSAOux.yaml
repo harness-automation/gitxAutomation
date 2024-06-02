@@ -1,0 +1,22 @@
+pipeline:
+  name: custom_remote_pipeSAOux
+  identifier: custom_remote_pipeSAOux
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: ss
+                  identifier: ss
+                  template:
+                    templateRef: shell_scriptMZCWO
+                    versionLabel: v1
+        tags: {}

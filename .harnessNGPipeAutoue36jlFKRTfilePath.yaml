@@ -1,7 +1,0 @@
-environment:
-  name: NGPipeAutoue36jlFKRT
-  identifier: NGPipeAutoue36jlFKRT
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  tags: {
-    }
-  type: Production

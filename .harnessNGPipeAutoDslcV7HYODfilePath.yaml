@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAutoDslcV7HYOD
-  identifier: NGPipeAutoDslcV7HYOD
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvciAupMU0cLL
-  tags: {
-    }
-  type: Production
